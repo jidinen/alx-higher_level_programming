@@ -18,12 +18,13 @@ def main():
         print("{} argument".format(total))
 
     elif(total == 1):
-        print("{} argument".format(total))
+        print("{} argument:".format(total))
     else:
         print("{} arguments".format(total))
         for i, arg in enumerate(restag):
             print("{}: {}".format(a, arg))
             a += 1
+
 
 if __name__ == "__main__":
     main()
