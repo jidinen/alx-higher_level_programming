@@ -20,7 +20,7 @@ def main():
     elif total == 1:
         print("{} argument:".format(total))
     else:
-        print("{} arguments".format(total))
+        print("{} arguments:".format(total))
     for i, arg in enumerate(restag):
             print("{}: {}".format(a, arg))
             a += 1
