@@ -22,8 +22,8 @@ def main():
     else:
         print("{} arguments:".format(total))
     for i, arg in enumerate(restag):
-            print("{}: {}".format(a, arg))
-            a += 1
+        print("{}: {}".format(a, arg))
+        a += 1
 
 
 if __name__ == "__main__":
