@@ -15,7 +15,7 @@ def main():
     restag = sys.argv[1:]
     total = len(sys.argv) - 1
     if (total <= 0):
-        print("{} argument:".format(total))
+        print("{} arguments".format(total))
 
     elif(total == 1):
         print("{} argument:".format(total))
