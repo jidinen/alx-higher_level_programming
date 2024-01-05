@@ -22,7 +22,7 @@ def main():
     else:
         print("{} arguments".format(total))
     for i, arg in enumerate(restag):
-            print(" {}: {}".format(a, arg))
+            print("{}: {}".format(a, arg))
             a += 1
 
 
