@@ -4,9 +4,6 @@
 def element_at(my_list, idx):
 
     """ deletes an element from a list"""
-    if idx < 0:
-        return (None)
-    elif idx > len(my_list):
-        return (None)
-    mox = my_list[idx]
-    return (mox)
+    if idx < 0 or idx > len(my_list):
+        return None
+    return my_list[idx]
