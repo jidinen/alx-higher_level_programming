@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
 
-def def multiply_list_map(my_list=[], number=0) -> set:
-    return (list(map(lambda n: n * number, my_list)))
+def multiply_list_map(my_list=[], number=0) -> set:
+    new_list = (list(map(lambda n: n * number, my_list)))
+    return new_list
