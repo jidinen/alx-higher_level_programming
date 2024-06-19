@@ -2,5 +2,5 @@
 
 console.log("C is fun");
 console.log("Python is cool");
-console.log("Javascript is aweasom");
+console.log("Javascript is amazing");
 
