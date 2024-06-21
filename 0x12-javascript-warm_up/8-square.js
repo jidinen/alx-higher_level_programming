@@ -2,6 +2,9 @@
 
 const myArg = process.argv.slice(2);
 let num = Number(myArg[0]);
+if (isNaN(num)){
+console.log("Missing size");
+}
 for (let i = 0; i < num; i++)
 {
 let result = [];
