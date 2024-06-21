@@ -24,7 +24,7 @@ copy.splice(x, 1);
 }
 
 
-if (num.length == 0){
+if (num.length == 0 || num.length == 1){
 let x = 0
 console.log(x);
 }
