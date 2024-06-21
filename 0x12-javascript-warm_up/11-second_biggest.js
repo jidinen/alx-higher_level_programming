@@ -31,5 +31,5 @@ console.log(x);
 else{
 let secondMax = findsec(copy.filter(num => num !== max));
 console.log(secondMax);
-console.log("Second largest number:", secondMax !== undefined ? secondMax : "No second largest number found");
+//console.log("Second largest number:", secondMax !== undefined ? secondMax : "No second largest number found");
 }
