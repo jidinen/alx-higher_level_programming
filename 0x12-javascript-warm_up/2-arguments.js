@@ -1,15 +1,12 @@
 #!/usr/bin/node
-
+//variable stores the argument vector of the function
 const myArg = process.argv.slice(2);
 
 if (myArg.length == 0){
 console.log("No argument");
-}
-else if(myArg.length == 1)
-{
+} else if(myArg.length == 1){
 console.log("Argument found");
-}
-else 
-{
+
+} else {
 console.log("Arguments found");
 }
