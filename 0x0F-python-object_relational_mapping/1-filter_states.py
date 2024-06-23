@@ -3,12 +3,14 @@
 """
  writing a Mysqldb script
 
+
 """
 import MySQLdb
 import sys
 """
 importing Mysqldb module and sys function as an argumeent vector
 """
+
 
 def fiLter():
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3],
@@ -22,7 +24,6 @@ def fiLter():
     for i in states:
         if (i[1][0] == "N"):
             print(i)
-   
 
     db.close()
 
