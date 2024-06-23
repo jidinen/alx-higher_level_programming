@@ -20,7 +20,7 @@ def fiLter():
     states = cux.fetchall()
 
     for i in states:
-        if (states[0] == "N"):
+        if (i[1][0] == "N"):
             print(i)
    
 
