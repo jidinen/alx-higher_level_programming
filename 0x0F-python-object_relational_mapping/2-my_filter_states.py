@@ -19,7 +19,7 @@ def fiLter():
     cux = db.cursor()
     xix = sys.argv[4]
     query = "SELECT id, name FROM states WHERE name = '{}'".format(xix)
-   # query = "SELECT id, name FROM states WHERE name = %s"
+
     cux.execute(query)
 
     states = cux.fetchall()
