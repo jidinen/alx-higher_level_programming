@@ -20,9 +20,8 @@ def fiLter():
     states = cux.fetchall()
 
     for i in states:
-#checking for the first letter 
         if (states[0] == "N"):
-        print(i)
+            print(i)
    
 
     db.close()
