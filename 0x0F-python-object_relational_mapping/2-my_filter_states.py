@@ -14,7 +14,7 @@ importing Mysqldb module and sys function as an argumeent vector
 
 def fiLter():
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3],
-                         port=3306,)
+                         port=3306)
 
     cux = db.cursor()
     xix = sys.argv[4]
