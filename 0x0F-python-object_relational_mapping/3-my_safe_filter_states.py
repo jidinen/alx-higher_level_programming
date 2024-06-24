@@ -18,9 +18,9 @@ def fiLter():
 
     cux = db.cursor()
     xix = sys.argv[4]
-    query = "SELECT id, name FROM states WHERE name = '{}'".format(xix)
+    query = "SELECT * FROM states WHERE name LIKE BINARY %s ORDER BY states.id"
 
-    cux.execute(query)
+    cux.execute(query, (xix.encode('utf-8'),))
 
     states = cux.fetchall()
 
